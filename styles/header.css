@@ -1,0 +1,13 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgb(20,25,32);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
