@@ -19,3 +19,11 @@ header {
 .pin-icon {
     color: white;
 }
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
