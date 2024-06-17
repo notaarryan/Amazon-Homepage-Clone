@@ -11,3 +11,11 @@ header {
     align-items: center;
     z-index: 100;
 }
+
+.amzn-logo  {
+    height: 60px;
+}
+
+.pin-icon {
+    color: white;
+}
