@@ -12,8 +12,13 @@ header {
     z-index: 100;
 }
 
+.amazon {
+    height: 60px;
+    width: 100px;
+}
 .amzn-logo  {
     height: 60px;
+    margin-left: -20px;
 }
 
 .pin-icon {
@@ -25,10 +30,25 @@ header {
     flex-direction: row;
 }
 
+.location-button {
+    background-color: rgb(20,25,32);
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 60px;
+    text-align: left;
+}
+
 .deliver {
     font-size: 12px;
-    margin-left: 30px;
-    margin-top: 20px;
-    color: rgb(97,100,104);
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgba(180, 180, 180, 0.834);
+}
+
+.update {
+    color: white;
+    margin-left: 10px;
+    font-weight: 600;
 }
 
