@@ -22,8 +22,13 @@ header {
 
 .left-section {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
 }
 
+.deliver {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(97,100,104);
+}
 
