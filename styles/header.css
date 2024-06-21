@@ -1,35 +1,37 @@
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    background-color: rgb(20,25,32);
-    height: 60px;
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(20,25,32);
+    height: 60px;
+    color: white;
+    
     z-index: 100;
 }
 
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
 .amazon {
+    margin-left: -10px;
     height: 60px;
     width: 100px;
 }
 .amzn-logo  {
     height: 60px;
-    margin-left: -20px;
 }
 
 .pin-icon {
     color: white;
 }
 
-.left-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 .location-button {
     background-color: rgb(20,25,32);
@@ -53,13 +55,15 @@ header {
 }
 
 .middle-section {
-    margin-left: -350px;
+    flex: 1;
+    max-width: 600px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 600px;
     background-color: red;
+    position: relative;
 }
 
 .all-dropdown {
