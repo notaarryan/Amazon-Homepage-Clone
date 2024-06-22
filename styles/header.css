@@ -1,6 +1,5 @@
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     position: fixed;
@@ -17,6 +16,7 @@ header {
 .header {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .amazon {
@@ -51,34 +51,48 @@ header {
 .update {
     color: white;
     margin-left: 10px;
-    font-weight: 600;
+    font-weight: 600px
+}
+
+.location {
+    margin-right: 20px;
 }
 
 
 .dropdown {
     border: none;
     height: 40px;
-    width: 35px;
+    width: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
-    color: gray;
     border: none;
 }
 
 .dropdown-select {
     display: block;
-    width: 35px;
+    width: 50px;
     height: 40px;
     margin-right: 20px;
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.548);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
-.search-bar {
-    flex: 1;
+.search {
+    background-color: red;
     height: 40px;
     border: none;
+}
+
+.search-bar {
+    height: 40px;
+    border: none;
+    visibility: hidden;
 }
 
 .search-bar::placeholder {
